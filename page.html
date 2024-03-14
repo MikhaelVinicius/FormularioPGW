@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulário</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+<div id="container_form">
+    <h3>Cadastramento</h3>
+    <form id="formulario">
+        <label for="imagemInput">Selecione uma imagem:</label>
+        <input type="file" id="imagemInput" accept="image/*">
+        <br><br>
+        <label>Nome do contratado</label>
+        <br>
+        <input type="text" name="nome" id="inputNome" for="nomeV">
+        <br><br>
+        <label>E-mail de contato</label>
+        <br>
+        <input type="email" name="email" id="inputEmail" for="emailV">
+        <br><br>
+        <label>Senha</label>
+        <br>
+        <input type="password"> 
+        <br><br>
+        <label>Cargo designado</label>
+        <br>
+        <select name="cargo" id="lista_de_cargos" for="cargoV">
+            <option value="medico">Médico</option>
+            <option value="enfermeiro">Enfermeiro</option>
+            <option value="tecnico">Técnico de enfermagem</option>
+        </select>
+        <br><br>
+        <label name="cadastro">Cadastrar</label>
+        <input type="submit" name="cadastro" >
+    </form>
+</div>
+
+<div id="container_visualizacao">
+    <img id="imgPerfilV">
+    <div id="container2">
+        <p name="nome" id="nomeV"></p>
+        <p name="email" id="emailV"></p>
+        <p name="cargo" id="cargoV"></p>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/script.js"></script>
+</body>
+</html>

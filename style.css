@@ -1,0 +1,73 @@
+#container_form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    
+    
+    
+}
+
+#formulario{
+    
+    background-color: grey;
+    border: 0;
+    padding: 60px;
+    margin: 0;
+    width: 20%;
+    border-radius: 5px;
+    
+    
+}
+
+#container_visualizacao{
+color: aliceblue;
+ text-align: center;
+ position: relative;
+ bottom: 500px;
+ margin: 100px;
+ margin-right: 1%;
+ margin-left: 60%;
+ font-size: 20px;
+ 
+    
+     
+}
+
+#container2{
+    text-align: center;
+    background-color: gray;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+#imgPerfilV{
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+    
+}
+
+
+#imagemInput{
+    color: gray;
+    margin-left: 30%;
+}
+
+body{
+    background-color: black;
+}
+
+input{
+    border-radius: 5px;
+}
